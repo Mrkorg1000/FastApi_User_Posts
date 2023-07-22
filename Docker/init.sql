@@ -1,0 +1,3 @@
+ALTER USER postgres WITH ENCRYPTED PASSWORD 'Ilovedjango';
+CREATE DATABASE user_posts;
+GRANT ALL PRIVILIGES ON DATABASE user_posts TO postgres;
